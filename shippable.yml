@@ -37,6 +37,7 @@ matrix:
     - env: T=linux/opensuse15/1
     - env: T=linux/ubuntu1604/1
     - env: T=linux/ubuntu1804/1
+    - env: T=linux/ubuntu2004/1
 
 
 branches:
