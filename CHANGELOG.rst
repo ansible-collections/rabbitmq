@@ -4,6 +4,14 @@ Community.Rabbitmq Release Notes
 
 .. contents:: Topics
 
+v1.1.0
+======
+
+Minor Changes
+-------------
+
+- rabbitmq_user_limit: Added to support per-user limits introduced in Rabbitmq 3.8.10.
+
 v1.0.2
 ======
 
