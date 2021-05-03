@@ -385,7 +385,7 @@ def main():
         read_priv=dict(default='^$'),
         force=dict(default='no', type='bool'),
         state=dict(default='present', choices=['present', 'absent']),
-        node=dict(default='rabbit'),
+        node=dict(default='rabbit', type='bool'),
         update_password=dict(default='on_create', choices=['on_create', 'always'], no_log=False)
     )
     module = AnsibleModule(
