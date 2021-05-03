@@ -195,7 +195,7 @@ class RabbitMqPolicy(object):
         policy_name = policy_data[name_fno]
         apply_to = policy_data[apply_to_fno]
         pattern = policy_data[pattern_fno].replace('\\\\', '\\')
-        tags = json.loads(policy_data[tags_fno])
+        tags = policy_data[tags_fno]
         priority = policy_data[priority_fno]
 
         return (policy_name == self._name and apply_to == self._apply_to
